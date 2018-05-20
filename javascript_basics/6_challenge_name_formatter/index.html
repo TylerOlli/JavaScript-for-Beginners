@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Name Formatter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+    <script>
+     var name = "tyLeR oLLi";
+     var split = name.split(" ")
+     var first = split[0];
+     var last = split[1];
+     var formattedFirstName = first.slice(0, 1).toUpperCase() + first.slice(1).toLowerCase();
+     var formattedLastName = last.slice(0, 1).toUpperCase() + last.slice(1).toLowerCase();
+     var newName = formattedFirstName + " " + formattedLastName;
+    alert(newName);
+     
+        
+    </script>
+</body>
+</html>
